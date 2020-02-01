@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <main>
+        <h1 id="title">Habib's freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for your time</p>
+
+        <form action="" id="survey-form">
+            <div id="last">
+                <label id="name-label">Name</label><br>
+                <input type="text" id="name" placeholder="Your name" required><br>
+
+                <label id="email-label">Email</label><br>
+                <input type="email" id="email" placeholder="Your email address" required><br>
+
+                <label id="number-label">Age</label><br>
+                <input type="number" id="number" placeholder="Your age" min="1" max="99"><br>
+
+                <p>Which of these is your learning goal?</p>
+                <select id="dropdown">
+                    <option value="" disabled selected>Choose your current goal</option>
+                    <option value="frontend">Frontend</option>
+                    <option value="backend">Backend</option>
+                    <option value="devops">Devops</option>
+                    <option value="fullstack">Fullstack</option>
+                </select><br><br>
+
+                <p>Would you recommend freeCodeCamp to a friend?</p>
+                <fieldset>
+                    <input type="radio" id="definitely" name="to-recommend-fcc" value="definitely" checked>
+                    <label for="definitely">Definitely</label><br>
+                    <input type="radio" id="maybe" name="to-recommend-fcc" value="maybe">
+                    <label for="maybe">Maybe</label><br>
+                    <input type="radio" id="not-sure" name="to-recommend-fcc" value="not-sure">
+                    <label for="not-sure">Not sure</label><br>
+                </fieldset><br>
+
+                <p>What is your favourite feature of freeCodeCamp?</p>
+                <select id="fav-dropdown">
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="challenges">Challenges</option>
+                    <option value="projects">Projects</option>
+                    <option value="community">Community</option>
+                    <option value="open-source">Open Source</option>
+                </select><br><br>
+
+                <p>What would you like improved? (Check all that apply)</p>
+                <div class="move-left">
+                    <input type="checkbox" name="improvement" id="frontend" value="frontend">
+                    <label for="frontend">Frontend projects</label><br>
+
+                    <input type="checkbox" name="improvement" id="backend" value="backend">
+                    <label for="backend">Backend projects</label><br>
+
+                    <input type="checkbox" name="improvement" id="challenges" value="challenges">
+                    <label for="challenges">Challenges</label><br>
+
+                    <input type="checkbox" name="improvement" id="data-visualization" value="data-visualization">
+                    <label for="data-visualization">Data visualization</label><br>
+
+                    <input type="checkbox" name="improvement" id="open-source" value="open-source">
+                    <label for="open-source">Open-source community</label><br><br>
+
+                    <p>Any comments or suggestions?</p>
+                    <textarea name="" id="text-area" cols="30" rows="7"
+                        placeholder="Enter your comment here..."></textarea><br>
+
+                    <input type="submit" value="Submit" id="submit">
+        </form>
+    </main>
+
+</body>
+
+</html>
