@@ -1,0 +1,84 @@
+html{
+    font-size: 62.5%;
+    color: whitesmoke;
+    font-family: Arial;
+    background: url("https://res.cloudinary.com/habibwritescode/image/upload/v1576053946/rnwpokvco4qoleltmnvk.png");
+    width: 100%;
+      background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  main{
+    background-color: rgba(101, 101, 159, 0.8);
+  }
+  
+  #title{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 3em;
+  }
+  
+  #description{
+    text-align: center;
+    font-size: 2em;
+    font-style: italic;
+  }
+  
+  #survey-form{
+    background-color: rgba(41, 41, 72, 0.8);
+    max-width: 550px;
+    margin: auto;
+    font-size: 2em;
+    padding: 50px 10px; 
+    border-radius: 5px;
+  }
+  
+  label, p, input, select, textarea{
+    margin: 10px 20px 10px 20px;
+  }
+  
+  fieldset label{
+    margin-left: -9px;
+  }
+  
+  fieldset input{
+    margin-left: 6px;
+  }
+  
+  #name, #email, #number,#dropdown, #fav-dropdown{
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+  
+  fieldset{
+    border: none;
+  }
+  
+  .move-left label{
+    margin-left: -9px;
+  }
+  
+  .move-left input{
+    margin-left: 22px;
+  }
+  #text-area{
+    width: 80%;
+  }
+  
+  [type="submit"]{
+    width: 80%;
+    padding: 10px;
+    font-size: 0.9em;
+    color: white;
+    background-color: rgb(55, 175, 101);
+    border: 2px solid rgb(55, 175, 101);
+    border-radius: 3px;
+  }
+  
+  #text-area{
+    font-family: Arial;
+    font-size: 0.7em;
+    padding: 10px 0px 0px 10px;
+  }
